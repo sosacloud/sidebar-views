@@ -1,9 +1,13 @@
 var mysql = require('mysql');
-const login = require('./auth.js');
 
-var connection = mysql.createConnection(login.auth);
+var connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'relatedTracks'
+});
 
-connection.connect((err) => {
+connection.connect(err => {
   if (err) console.log('db Connection error', err);
 });
 
