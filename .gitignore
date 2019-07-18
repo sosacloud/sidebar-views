@@ -1,6 +1,5 @@
 # compiled files
 db/auth.js
-db/fake_data
 client/dist/bundle.js
 client/dist/bundle.js.zip
 
