@@ -37,8 +37,8 @@
     "testEnvironment": "enzyme"
   },
   "dependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "body-parser": "^1.19.0",
     "concurrently": "^4.1.1",
     "express": "^4.17.1",
@@ -65,7 +65,7 @@
     "jest-styled-components": "^6.3.3",
     "react-test-renderer": "^16.8.6",
     "supertest": "^4.0.2",
-    "webpack": "^4.35.3",
+    "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   }
 }
