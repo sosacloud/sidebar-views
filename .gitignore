@@ -1,7 +1,7 @@
 # compiled files
-db/auth.js
 client/dist/bundle.js
 client/dist/bundle.js.zip
+
 
 # dependency directories
 node_modules
