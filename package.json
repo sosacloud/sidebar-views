@@ -65,7 +65,7 @@
     "jest-styled-components": "^6.3.3",
     "react-test-renderer": "^16.8.6",
     "supertest": "^4.0.2",
-    "webpack": "^4.39.0",
+    "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   }
 }
