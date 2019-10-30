@@ -29,13 +29,18 @@
 
 
 ## Requirements
-
-
+* npm, git, MySQL
 
 ## Development
 
 ### Installing Dependencies
 
-From within the root directory:
+From within the root directory: `npm install`
+
+### Populating the database
+**You will need to create your own auth.js file and export it from within /db with host, user, database, and password**
+See: [npm mysql](https://www.npmjs.com/package/mysql#establishing-connections)
+* Generate fake data: `npm run fake-data`
+* Seed the database: `npm run seed`
 
 
